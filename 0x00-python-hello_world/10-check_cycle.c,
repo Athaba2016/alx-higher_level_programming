@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 #include "lists.h"
+
 
 /**
  * check_cycle - function checks if a singly linked list has a cycle in it.
@@ -23,6 +25,7 @@ int check_cycle(listint_t *list)
 		check = check->next->next;
 	}
 	return (0);
+
 
 
 
